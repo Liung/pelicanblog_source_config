@@ -82,7 +82,8 @@ NOTEBOOK_DIR = 'downloads/notebooks'
 
 # plugin config
 PLUGIN_PATHS = ['pelican-plugins/']
-PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
+PLUGINS = ['summary', 'render_math',
+           'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code',  # 'liquid_tags.notebook',
            'liquid_tags.literal']
 
