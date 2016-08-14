@@ -1,0 +1,6 @@
+[submodule "my_pelican_octopress_theme"]
+	path = my_pelican_octopress_theme
+	url = https://github.com/Liung/my_pelican_octopress_theme.git
+[submodule "pelican-plugins"]
+	path = pelican-plugins
+	url = https://github.com/getpelican/pelican-plugins
