@@ -4,9 +4,9 @@ from __future__ import unicode_literals
 import os
 
 ##
-AUTHOR = 'Liuchao'
+AUTHOR = 'Liung'
 SITENAME = 'Liung'
-SITESUBTITLE = u'我如溪水，静静流淌在山涧~~我如白云，俯瞰此生今生~~'
+SITESUBTITLE = u'如溪水，如白云，如清晨，如薄雾......'
 SITEURL = 'http://liung.github.io'
 
 # datetime config
@@ -56,7 +56,7 @@ AUTHOR_FEED_RSS = None
 
 # ----------------------------View-----------------------------
 # set blog's theme
-THEME = 'my-pelican-octopress-theme'
+THEME = 'my_pelican_octopress_theme'
 # Blog's menu
 MENUITEMS = [(u'目  录', '/archives.html'),
              (u'主  页', SITEURL),
@@ -82,9 +82,9 @@ NOTEBOOK_DIR = 'downloads/notebooks'
 
 # plugin config
 PLUGIN_PATHS = ['pelican-plugins/']
-# PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
-#            'liquid_tags.include_code',  # 'liquid_tags.notebook',
-#            'liquid_tags.literal']
+PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
+           'liquid_tags.include_code',  # 'liquid_tags.notebook',
+           'liquid_tags.literal']
 
 # The theme file should be updated so that the base header contains the line:
 #
@@ -107,7 +107,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
-SOCIAL = ((u'新浪微博', 'http://www.weibo.com'),
+SOCIAL = ((u'新浪微博', 'http://www.weibo.com/lclzx1988'),
           (u'Github', 'https://github.com/Liung'),)
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -115,9 +115,9 @@ RELATIVE_URLS = True
 
 # sharing config
 TWITTER_TWEET_BUTTON = True
-TWITTER_USER = 'lc.pypi@gmail.com'
+TWITTER_USER = 'Liung_'
 GOOGLE_PLUS_ONE = True
-GOOGLE_PLUS_ID = 'lc.pypi@gmail.com'
+GOOGLE_PLUS_ID = '117788376468366009129'
 FACEBOOK_LIKE = False
 
 # comments util
